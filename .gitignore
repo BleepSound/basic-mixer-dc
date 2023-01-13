@@ -6,6 +6,7 @@
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.kicad_pro-bak
 *.sch-bak
 *~
 _autosave-*
@@ -24,3 +25,10 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+#backup folder
+**-backups
+
+_site
+Makefile
+Gemfile.lock
