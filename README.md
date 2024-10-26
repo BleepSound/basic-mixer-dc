@@ -1,8 +1,3 @@
----
-permalink: /index.html
-layout: single
----
-
 # basic DC mixer
 
 Basic DC mixer with 4 ins and one out.
