@@ -1,37 +1,13 @@
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
 # basic DC mixer
 
-Basic DC mixer with 4 ins and one out.
+Latest documentation available at https://bleepsound.github.io/modules/
 
-DC coupled, can work with both audio and CV.
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
 
-Mute switches and vol pots on all voices.
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
 
-One main out and one inverted out.
-
-You'll find the schematic of this module below:
-
-![basic dc Mixer schematic](documentation/image/Basic-DC-mixer-schematic.svg)
-
-Regular build, I use ceramic capacitors but you can use film/polyester.
-
-:warning: When building modules, always do it in this order (from smallest component to highest):
-- diodes
-- resistors
-- DIP chips
-- capacitors (film/ceramic)
-- Electrolytic capacitors
-
-For the next part, always place them without soldering them on:
-- jacks, pots and switches that go thought the front panel
-
-Once placed, put in place the front panel, then fasten all components to it. Once this is done, you can solder them.
-
-![3D Basic-DC-mixer(front)](documentation/image/Basic-DC-mixer-3D_top.png)
-
-![3D Basic-DC-mixer(back)](documentation/image/Basic-DC-mixer-3D_bottom.png)
-
-![3D Basic-DC-mixer(iso)](documentation/image/Basic-DC-mixer-3D_top30deg.png)
-
-[See bom globale](documentation/bom/Basic-DC-mixer-ibom-global.html)
-
-[See bom board jack](documentation/bom/Basic-DC-mixer-ibom-jack.html)
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
